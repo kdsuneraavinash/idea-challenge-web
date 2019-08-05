@@ -1,0 +1,20 @@
+.btn-primary-cta {
+    color: #fff;
+    background-color: #0055E8;
+    border-color: #0055E8;
+    border-radius: 0.3125em;
+    letter-spacing: 2px;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #fff;
+        background-color: #0055E8;
+        border-color: #0042b5;
+    }
+
+    &:focus,
+    &.focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 85, 232, 0.5);
+    }
+}

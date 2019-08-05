@@ -1,0 +1,57 @@
+#main_nav {
+    background: #181D33;
+    transition: all .5s ease-in-out; // Add animation smoothing
+    box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.2); // Border under navbar
+
+    .navbar-brand {
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+    .nav-link {
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        padding: 1.2rem;
+
+        &:hover,
+        &:focus {
+            color: #8591c5;
+        }
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+}
+
+// Navbar when scrolled
+
+.navbar-shrink {
+    background: #FFF !important;
+
+    .nav-link {
+        color: #181D33 !important;
+
+        &:hover {
+            color: #0055E8 !important;
+        }
+    }
+
+    .navbar-brand {
+        color: #181D33 !important;
+    }
+
+    a.active {
+        color: #0055E8 !important;
+    }
+}
+
+// Remove margin if links in small devices
+
+@media (max-width: $lg-breakpoint) {
+    #main_nav .nav-link {
+        padding: 0.5rem 0;
+    }
+}

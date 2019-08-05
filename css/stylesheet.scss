@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,800,800i");
+
+$lg-breakpoint: 991px;
+
+/**************************************
+* Basic Global Settings 
+**************************************/
+
+body {
+    font-family: 'Muli', sans-serif;
+    color: #181d33;
+}
+
+
+.cta_line {
+    margin-top: 30px;
+}
+
+
+/**************************************
+* Comonents 
+**************************************/
+
+@import "./components/buttons";
+@import "./components/about_card";
+/**************************************
+* Navbar 
+**************************************/
+
+@import "./sections/navbar";
+
+/**************************************
+* Header 
+**************************************/
+
+@import "./sections/header";
+
+/**************************************
+* Avout 
+**************************************/
+
+@import "./sections/about";
+
+/**************************************
+* Registration 
+**************************************/
+
+@import "./sections/registration";
+
+/**************************************
+* Organizers 
+**************************************/
+
+@import "./sections/organizers";
+
+/**************************************
+* Footer 
+**************************************/
+
+@import "./sections/footer";
