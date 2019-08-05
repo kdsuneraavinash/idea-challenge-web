@@ -75,7 +75,7 @@ body {
   color: #8591c5;
 }
 #main_nav .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 85, 232, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-shrink {
@@ -153,6 +153,10 @@ header {
   font-weight: 800;
   font-size: x-large;
 }
+.registraion img {
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px 3px rgba(0, 0, 0, 0.2);
+}
 
 @media (min-width: 1200px) {
   .registraion .registraion_content {
@@ -185,8 +189,6 @@ header {
   margin: 30px 0px 0px;
   border-radius: 0.15em;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
 }
 #organizers .organizers_list .speaker_card img {

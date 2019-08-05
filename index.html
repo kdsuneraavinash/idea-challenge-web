@@ -7,7 +7,6 @@
   <meta name="description" content="Android mobile app competition website">
   <meta name="author" content="kdsuneraavinash: Department of CSE, registraion of Moratuwa">
 
-  <!-- TODO: Replace icon-->
   <link rel="icon" href="favicon.png">
 
   <title>IDEA Challenge 2019</title>
@@ -18,6 +17,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- FontAwesome -->
   <link href="https://use.fontawesome.com/4c52c47479.css" media="all" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 
@@ -109,9 +110,9 @@
                 </p>
               </div>
 
-              <div class="col-lg-6 mb-3">
+              <div class="col-lg-6 mb-3>
 
-                <h2 class="mb-4">AWARDS AND PRIZES</h2>
+                <h2 class=" mb-4">AWARDS AND PRIZES</h2>
                 <p>
                   All the students who complete the course successfully will be awarded a Certificate of Course
                   Completion by the IESL.
@@ -132,7 +133,7 @@
               <div class="row justify-content-center">
                 <div class="col-md-4">
 
-                  <div class="about_card">
+                  <div class="about_card" data-aos="flip-left">
                     <div class="inner_content">
                       <img src="images/icns/location_pin.svg" width="100" height="100" alt="location">
                       <h3>Location</h3>
@@ -145,7 +146,7 @@
                 </div>
                 <div class="col-md-4">
 
-                  <div class="about_card">
+                  <div class="about_card" data-aos="flip-right">
                     <div class="inner_content">
                       <img src="images/icns/calendar.svg" width="100" height="100" alt="location">
 
@@ -171,7 +172,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 offset-lg-1 align-self-lg-center">
-          <div class="registraion_content">
+          <div class="registraion_content" data-aos="zoom-in">
             <h2>SCHOOL CHALLENGE</h2>
             <p>The Information Technology and Communications Engineering Sectional Committee of the IESL organizes
               one of its annual competitions; the “IDEA Challenge”, to promote software development among school
@@ -184,10 +185,11 @@
           </div>
 
         </div>
-        <div class="col-lg-6 offset-lg-1 no-padding">
+        <div class="col-lg-6 offset-lg-1 no-padding" data-aos="fade-left">
           <img class="img-fluid mx-auto d-none d-lg-block" src="images/conference_bg.jpg" width="800" height="800"
             alt="">
         </div>
+
       </div>
     </div>
   </section>
@@ -196,13 +198,13 @@
   <section class="registraion bg-white" id="undergraduate">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 no-padding">
+        <div class="col-lg-6 no-padding" data-aos="fade-right">
           <img class="img-fluid mx-auto d-none d-lg-block" src="images/workshops_bg.jpg" width="800" height="800"
             alt="">
         </div>
         <div class="col-lg-4 offset-lg-1 align-self-lg-center">
 
-          <div class="registraion_content">
+          <div class="registraion_content" data-aos="zoom-in">
             <h2>UNDERGRADUATE CHALLENGE</h2>
             <p>If you are enthusiastic about Android mobile application, eager to learn more about mobile application
               development
@@ -231,7 +233,7 @@
       <div class="organizers_list">
 
         <div class="row justify-content-between">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in-right">
             <div class="speaker_card">
               <img src="images/organizers/iesl.gif" class="img-fluid mx-auto d-block" alt="">
               <div class="speaker_details">
@@ -239,7 +241,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
             <div class="speaker_card">
               <img src="images/organizers/uom.png" class="img-fluid mx-auto d-block" alt="">
               <div class="speaker_details">
@@ -247,7 +249,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in-left">
             <div class="speaker_card">
               <img src="images/organizers/cse.jpg" class="img-fluid mx-auto d-block" alt="">
               <div class="speaker_details">
@@ -315,8 +317,15 @@
   <!-- Plugin JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
   <!-- Event JS -->
   <script src="js/event.js"></script>
+
+  <script>
+    AOS.init()
+  </script>
 </body>
 
 </html>
