@@ -9,6 +9,7 @@ footer#contact {
         font-size: x-large;
         margin-top: 0px;
         color: #82b0ff;
+        margin-bottom: 20px;
     }
 
     h3 {
@@ -25,16 +26,7 @@ footer#contact {
         font-size: .9em;
     }
 
-    .list-inline li a {
-        color: #82b0ff;
-
-        a:hover,
-        a:focus {
-            color: #0042b5;
-        }
-    }
-
-    .list-unstyled>li {
-        font-size: .9em;
+    img{
+        border-radius: 100px;
     }
 }

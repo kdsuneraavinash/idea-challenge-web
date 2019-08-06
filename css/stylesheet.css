@@ -5,6 +5,19 @@
 body {
   font-family: 'Muli', sans-serif;
   color: #181d33;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0d141a;
 }
 
 .cta_line {
@@ -108,8 +121,9 @@ header {
 
 #top-content {
   background: no-repeat;
-  background-image: url(https://images.wallpaperscraft.com/image/android_os_gray_robot_33642_2048x1152.jpg);
+  background-image: url(https://w.wallhaven.cc/full/nm/wallhaven-nm8klm.png);
   background-size: cover;
+  background-position: center;
   color: #FFFFFF;
 }
 #top-content h1 {
@@ -192,6 +206,8 @@ header {
   box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
 }
 #organizers .organizers_list .speaker_card img {
+  padding-left: 20px;
+  padding-right: 20px;
   min-height: 350;
   object-fit: contain;
 }
@@ -223,6 +239,7 @@ footer#contact h2 {
   font-size: x-large;
   margin-top: 0px;
   color: #82b0ff;
+  margin-bottom: 20px;
 }
 footer#contact h3 {
   font-weight: 800;
@@ -236,13 +253,6 @@ footer#contact p {
   margin: 15px 0px;
   font-size: .9em;
 }
-footer#contact .list-inline li a {
-  color: #82b0ff;
-}
-footer#contact .list-inline li a a:hover,
-footer#contact .list-inline li a a:focus {
-  color: #0042b5;
-}
-footer#contact .list-unstyled > li {
-  font-size: .9em;
+footer#contact img {
+  border-radius: 100px;
 }

@@ -9,8 +9,20 @@ $lg-breakpoint: 991px;
 body {
     font-family: 'Muli', sans-serif;
     color: #181d33;
+    overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #ccc
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0d141a
+}
 
 .cta_line {
     margin-top: 30px;
